@@ -450,7 +450,7 @@ function renderWallet(){
 }
 function walletAction(type){
  if(type==='send'){
-  openModal('Send money',`<div class="stack"><label class="tiny muted">UPI ID<input class="input" id="sendUpi" value="${esc(state.wallet.upi||'')}" placeholder="name@upi"></label><label class="tiny muted">AMOUNT<input class="input" id="sendAmount" inputmode="decimal" placeholder="0.00"></label><div class="small" id="sendError" style="min-height:16px;color:var(--red)"></div><button class="btn btn-primary" id="sendNow">Send</button></div>`,body=>{
+  openModal('Send money',`<div class="stack"><label class="tiny muted">UPI ID<input class="input" id="sendUpi" value="" placeholder="name@upi"></label><label class="tiny muted">AMOUNT<input class="input" id="sendAmount" inputmode="decimal" placeholder="0.00"></label><div class="small" id="sendError" style="min-height:16px;color:var(--red)"></div><button class="btn btn-primary" id="sendNow">Send</button></div>`,body=>{
     body.querySelector('#sendNow').onclick=()=>{
       const upi=body.querySelector('#sendUpi').value.trim(),amount=Number(body.querySelector('#sendAmount').value),err=body.querySelector('#sendError');
       if(!validUpi(upi)){err.textContent=upiValidationMessage(upi);return}
