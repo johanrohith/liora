@@ -450,7 +450,7 @@ function renderWallet(){
 }
 function walletAction(type){
  if(type==='send'){
-  openModal('Send money',`<div class="stack"><label class="tiny muted">UPI ID<input class="input" id="sendUpi" value="" placeholder="name@upi"></label><label class="tiny muted">AMOUNT<input class="input" id="sendAmount" inputmode="decimal" placeholder="0.00"></label><div class="small" id="sendError" style="min-height:16px;color:var(--red)"></div><button class="btn btn-primary" id="sendNow">Send</button></div>`,body=>{
+  openModal('Send money',`<div class="stack"><label class="tiny muted">UPI ID<input class="input" id="sendUpi" value="${esc(state.wallet.upi||'')}" placeholder="name@upi"></label><label class="tiny muted">AMOUNT<input class="input" id="sendAmount" inputmode="decimal" placeholder="0.00"></label><div class="small" id="sendError" style="min-height:16px;color:var(--red)"></div><button class="btn btn-primary" id="sendNow">Send</button></div>`,body=>{
     body.querySelector('#sendNow').onclick=()=>{
       const upi=body.querySelector('#sendUpi').value.trim(),amount=Number(body.querySelector('#sendAmount').value),err=body.querySelector('#sendError');
       if(!validUpi(upi)){err.textContent=upiValidationMessage(upi);return}
@@ -492,7 +492,7 @@ function contactAvatar(c){return c?.type==='group'?'G':(cleanContactName(c)[0]||
 function contactMeta(c){if(c?.type==='group')return `${c.members?.length||0} member${(c.members?.length||0)===1?'':'s'}`;return c?.phone||c?.handle||'Direct contact'}
 function renderConnect(){
  const active=activeContact();const msgs=active?.messages||[];const unread=unreadCount();
- $('connect').innerHTML=`<div class="section-head"><div><div class="section-kicker">Communication</div><div class="section-title">Connect</div><div class="section-sub">Direct messages and external messaging.</div></div><div class="row">${unread?`<span class="badge red">Unread message${unread===1?'':'s'}</span>`:''}<button class="btn btn-primary" data-action="newMessage">New message</button></div></div><div class="connect-layout single"><aside class="card connect-left"><div class="row"><h2>People</h2><span class="badge">${state.connect.contacts.length}</span></div><div class="people-list" style="margin-top:8px">${state.connect.contacts.map(c=>`<button class="contact-row" data-contact="${esc(c.id)}"><span class="avatar-wrap"><span class="avatar">${esc(contactAvatar(c))}</span>${c.online?'<span class="online"></span>':''}</span><span class="contact-copy"><strong class="contact-name">${esc(cleanContactName(c))}</strong><span class="contact-meta">${esc(c.handle||c.phone||'Direct contact')}</span></span><span class="contact-side">${(c.messages||[]).some(m=>m.incoming&&!m.read)?'<span class="badge red">Unread message</span>':'<span class="tiny muted">›</span>'}</span></button>`).join('')||'<div class="empty">No conversations yet.</div>'}</div></aside><article class="card chat">${active?`<div class="chat-head"><div class="row"><div class="row-start"><span class="avatar">${esc(contactAvatar(active))}</span><div><strong>${esc(cleanContactName(active))}</strong><div class="small muted">${esc(contactMeta(active))}</div></div></div>${active.phone?`<div class="external-actions"><button class="btn btn-soft" data-external="sms">SMS</button><button class="btn btn-soft" data-external="whatsapp">WhatsApp</button></div>`:''}</div></div><div class="chat-messages">${msgs.map(m=>`<div class="bubble ${m.incoming?'in':'out'}"><div>${esc(m.text)}</div><div class="message-time">${esc(m.time)}</div></div>`).join('')||'<div class="empty">Start the conversation.</div>'}</div><div class="composer"><input class="input" id="messageInput" placeholder="Write a message…"><button class="btn btn-primary" data-send-message>Send</button></div>`:'<div class="empty" style="margin:auto 0">Click New message to start.</div>'}</article></div>`;
+ $('connect').innerHTML=`<div class="section-head"><div><div class="section-kicker">Communication</div><div class="section-title">Connect</div><div class="section-sub">Direct messages and external messaging.</div></div><div class="row">${unread?`<span class="badge red">Unread message${unread===1?'':'s'}</span>`:''}<button class="btn btn-primary" data-action="newMessage">New message</button></div></div><div class="connect-layout single"><aside class="card connect-left"><div class="row"><h2>People</h2><span class="badge">${state.connect.contacts.length}</span></div><div class="people-list" style="margin-top:8px">${state.connect.contacts.map(c=>`<button class="contact-row" data-contact="${esc(c.id)}"><span class="avatar-wrap"><span class="avatar">${esc(contactAvatar(c))}</span>${c.online?'<span class="online"></span>':''}</span><span class="contact-copy"><strong class="contact-name">${esc(cleanContactName(c))}</strong><span class="contact-meta">${esc(c.handle||c.phone||'Direct contact')}</span></span><span class="contact-side">${(c.messages||[]).some(m=>m.incoming&&!m.read)?'<span class="badge red">Unread message</span>':'<span class="tiny muted">›</span>'}</span></button>`).join('')||'<div class="empty">No conversations yet.</div>'}</div></aside><article class="card chat">${active?`<div class="chat-head"><div class="row"><div class="row-start"><span class="avatar">${esc(contactAvatar(active))}</span><div><strong>${esc(cleanContactName(active))}</strong><div class="small muted">${esc(contactMeta(active))}</div></div></div>${active.phone?`<div class="external-actions"><button class="btn btn-soft" data-external="sms">SMS</button><button class="btn btn-soft" data-external="whatsapp">WhatsApp</button></div>`:''}</div></div><div class="chat-messages">${msgs.map(m=>`<div class="bubble ${m.incoming?'in':'out'}"><div>${esc(m.text)}</div><div class="message-time">${esc(m.time)}</div></div>`).join('')||'<div class="empty">Start the conversation.</div>'}</div><div class="composer"><input class="input" id="messageInput" placeholder="Write a message…"><div class="external-actions"><button class="btn btn-primary" data-send-message>Send</button>${active.phone?`<button class="btn btn-soft" data-external-draft="sms">Send SMS</button><button class="btn btn-soft" data-external-draft="whatsapp">Send WhatsApp</button>`:''}</div></div>`:'<div class="empty" style="margin:auto 0">Click New message to start.</div>'}</article></div>`;
 }
 function newMessageModal(){
  openModal('New message',`<div class="stack"><label class="tiny muted">USERNAME OR PHONE NUMBER<input class="input" id="recipient" placeholder="@name or +919876543210"></label><label class="tiny muted">MESSAGE<textarea class="textarea" id="firstMessage" placeholder="Write a message…"></textarea></label><button class="btn btn-primary" id="startMessage">Start conversation</button></div>`,body=>{
@@ -500,14 +500,25 @@ function newMessageModal(){
  });
 }
 function messageTime(){return new Date().toLocaleTimeString([], {hour:'2-digit',minute:'2-digit'})}
-function sendMessage(){
- const c=activeContact(),input=$('messageInput');if(!c||!input)return;const text=input.value.trim();if(!text)return;c.messages=c.messages||[];c.messages.push({text,incoming:false,time:messageTime()});saveState();renderConnect();toast('Message added');if(c.phone)externalMessageChoice(c,text)
+function internationalPhone(value){
+ const digits=String(value||'').replace(/\D/g,'');
+ if(!digits)return '';
+ return digits.length===10?`91${digits}`:digits;
+}
+function sendMessage(channel){
+ const c=activeContact(),input=$('messageInput');if(!c||!input)return;const text=input.value.trim();if(!text)return;c.messages=c.messages||[];c.messages.push({text,incoming:false,time:messageTime()});input.value='';saveState();renderConnect();toast(channel?`Message added · ${channel==='sms'?'SMS':'WhatsApp'}`:'Message added');if(channel&&c.phone)openExternalMessage(channel,c,text);else if(!channel&&c.phone)externalMessageChoice(c,text)
 }
 function externalMessageChoice(c,msg){
- openModal('Open message app',`<div class="stack"><div class="small muted">Choose where to send this to ${esc(c.name)}.</div><div class="external-actions"><a class="btn btn-primary" target="_blank" rel="noopener" href="sms:${esc(c.phone)}?body=${encodeURIComponent(msg)}">Open SMS</a><a class="btn btn-soft" target="_blank" rel="noopener" href="https://wa.me/${esc(c.phone.replace(/\\D/g,''))}?text=${encodeURIComponent(msg)}">Open WhatsApp</a></div></div>`);
+ const phone=internationalPhone(c?.phone);if(!phone)return;
+ openModal('Send message',`<div class="stack"><div class="small muted">Your message is saved in the Liora chat. Choose an external app to send it to ${esc(c.name)}.</div><div class="external-actions"><a class="btn btn-primary" href="sms:${phone}?body=${encodeURIComponent(msg)}">Send SMS</a><a class="btn btn-soft" target="_blank" rel="noopener" href="https://wa.me/${phone}?text=${encodeURIComponent(msg)}">Send WhatsApp</a></div></div>`);
+}
+function openExternalMessage(type,c,msg){
+ const phone=internationalPhone(c?.phone);if(!phone)return;
+ if(type==='sms')window.location.href=`sms:${phone}?body=${encodeURIComponent(msg)}`;
+ else if(type==='whatsapp')window.open(`https://wa.me/${phone}?text=${encodeURIComponent(msg)}`,'_blank','noopener');
 }
 function openExternal(type){
- const c=activeContact();if(!c?.phone)return;const last=[...(c.messages||[])].reverse().find(m=>!m.incoming)?.text||'';if(type==='sms')window.location.href=`sms:${c.phone}?body=${encodeURIComponent(last)}`;if(type==='whatsapp')window.open(`https://wa.me/${c.phone.replace(/\\D/g,'')}?text=${encodeURIComponent(last)}`,'_blank');
+ const c=activeContact();if(!c?.phone)return;const last=[...(c.messages||[])].reverse().find(m=>!m.incoming)?.text||'';openExternalMessage(type,c,last);
 }
 function markActiveRead(){const c=activeContact();if(!c)return;(c.messages||[]).forEach(m=>{if(m.incoming)m.read=true});saveState()}
 
@@ -760,7 +771,7 @@ function renderAll(adjustPage=true){
 
 /* delegated interaction */
 document.addEventListener('click',event=>{
- const target=event.target.closest('button,a,[data-page],[data-action],[data-wallet-action],[data-open-note],[data-complete-task],[data-delete-task],[data-toggle-habit],[data-delete-habit],[data-delete-goal],[data-setting-toggle],[data-open-trip],[data-contact],[data-send-message],[data-send-ai],[data-focus-choice],[data-timer-toggle],[data-timer-reset],[data-delete-image],[data-view-image],[data-play-media-id],[data-media-play],[data-media-prev],[data-media-next],[data-delete-media],[data-media-search],[data-delete-place],[data-save-discovery],[data-delete-saved],[data-close-modal],[data-external],[data-topic-toggle],[data-notification-id]');
+ const target=event.target.closest('button,a,[data-page],[data-action],[data-wallet-action],[data-open-note],[data-complete-task],[data-delete-task],[data-toggle-habit],[data-delete-habit],[data-delete-goal],[data-setting-toggle],[data-open-trip],[data-contact],[data-send-message],[data-external-draft],[data-send-ai],[data-focus-choice],[data-timer-toggle],[data-timer-reset],[data-delete-image],[data-view-image],[data-play-media-id],[data-media-play],[data-media-prev],[data-media-next],[data-delete-media],[data-media-search],[data-delete-place],[data-save-discovery],[data-delete-saved],[data-close-modal],[data-external],[data-topic-toggle],[data-notification-id]');
  if(!target)return;
  if(target.dataset.page){event.preventDefault();showPage(target.dataset.page);return}
  if(target.dataset.action){
@@ -779,6 +790,7 @@ document.addEventListener('click',event=>{
  if(target.dataset.openTrip){openTrip(target.dataset.openTrip);return}
  if(target.dataset.contact){state.connect.activeId=target.dataset.contact;markActiveRead();renderConnect();return}
  if(target.dataset.sendMessage!==undefined){sendMessage();return}
+ if(target.dataset.externalDraft){sendMessage(target.dataset.externalDraft);return}
  if(target.dataset.sendAi!==undefined){sendAI();return}
  if(target.dataset.focusChoice){state.focus.duration=Number(target.dataset.focusChoice);state.focus.remaining=state.focus.duration*60;focusRunning=false;if(focusInterval)clearInterval(focusInterval);saveState();closeModal();renderAll();toast(`Focus timing set to ${target.dataset.focusChoice} minutes`);return}
  if(target.dataset.timerToggle!==undefined){toggleFocus();return}
