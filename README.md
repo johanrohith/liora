@@ -91,7 +91,7 @@ liora/
 │   │   ├── icon-192.png
 │   │   └── icon-512.png
 │   └── readme/
-│       └── liora-readme-banner.png
+│       └── liora-readme-banner.svg
 └── README.md
 ```
 
