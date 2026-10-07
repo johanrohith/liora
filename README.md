@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/readme/liora-readme-banner.png" alt="Liora" width="100%">
+<img src="assets/readme/liora-readme-banner.svg" alt="Liora" width="100%">
 
 ### ✦ One connected personal environment
 
