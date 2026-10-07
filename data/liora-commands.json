@@ -1,0 +1,2696 @@
+[
+  {
+    "match": [
+      "planner"
+    ],
+    "response": "Opening Planner."
+  },
+  {
+    "match": [
+      "open planner"
+    ],
+    "response": "Opening Planner."
+  },
+  {
+    "match": [
+      "show planner"
+    ],
+    "response": "Opening Planner."
+  },
+  {
+    "match": [
+      "go to planner"
+    ],
+    "response": "Opening Planner."
+  },
+  {
+    "match": [
+      "open my planner"
+    ],
+    "response": "Opening Planner."
+  },
+  {
+    "match": [
+      "take me to planner"
+    ],
+    "response": "Opening Planner."
+  },
+  {
+    "match": [
+      "planner page"
+    ],
+    "response": "Opening Planner."
+  },
+  {
+    "match": [
+      "planner screen"
+    ],
+    "response": "Opening Planner."
+  },
+  {
+    "match": [
+      "open planning"
+    ],
+    "response": "Opening Planner."
+  },
+  {
+    "match": [
+      "show planning"
+    ],
+    "response": "Opening Planner."
+  },
+  {
+    "match": [
+      "my planner"
+    ],
+    "response": "Opening Planner."
+  },
+  {
+    "match": [
+      "my plans"
+    ],
+    "response": "Opening Planner."
+  },
+  {
+    "match": [
+      "daily planner"
+    ],
+    "response": "Opening Planner."
+  },
+  {
+    "match": [
+      "weekly planner"
+    ],
+    "response": "Opening Planner."
+  },
+  {
+    "match": [
+      "planning page"
+    ],
+    "response": "Opening Planner."
+  },
+  {
+    "match": [
+      "go into planner"
+    ],
+    "response": "Opening Planner."
+  },
+  {
+    "match": [
+      "take me into planner"
+    ],
+    "response": "Opening Planner."
+  },
+  {
+    "match": [
+      "notes"
+    ],
+    "response": "Opening Notes."
+  },
+  {
+    "match": [
+      "open notes"
+    ],
+    "response": "Opening Notes."
+  },
+  {
+    "match": [
+      "show notes"
+    ],
+    "response": "Opening Notes."
+  },
+  {
+    "match": [
+      "go to notes"
+    ],
+    "response": "Opening Notes."
+  },
+  {
+    "match": [
+      "open my notes"
+    ],
+    "response": "Opening Notes."
+  },
+  {
+    "match": [
+      "take me to notes"
+    ],
+    "response": "Opening Notes."
+  },
+  {
+    "match": [
+      "notes page"
+    ],
+    "response": "Opening Notes."
+  },
+  {
+    "match": [
+      "notes screen"
+    ],
+    "response": "Opening Notes."
+  },
+  {
+    "match": [
+      "open writing"
+    ],
+    "response": "Opening Notes."
+  },
+  {
+    "match": [
+      "show writing"
+    ],
+    "response": "Opening Notes."
+  },
+  {
+    "match": [
+      "my notes"
+    ],
+    "response": "Opening Notes."
+  },
+  {
+    "match": [
+      "my notebook"
+    ],
+    "response": "Opening Notes."
+  },
+  {
+    "match": [
+      "open notebook"
+    ],
+    "response": "Opening Notes."
+  },
+  {
+    "match": [
+      "show notebook"
+    ],
+    "response": "Opening Notes."
+  },
+  {
+    "match": [
+      "note space"
+    ],
+    "response": "Opening Notes."
+  },
+  {
+    "match": [
+      "open knowledge"
+    ],
+    "response": "Opening Notes."
+  },
+  {
+    "match": [
+      "go into notes"
+    ],
+    "response": "Opening Notes."
+  },
+  {
+    "match": [
+      "take me into notes"
+    ],
+    "response": "Opening Notes."
+  },
+  {
+    "match": [
+      "wallet"
+    ],
+    "response": "Opening Wallet."
+  },
+  {
+    "match": [
+      "open wallet"
+    ],
+    "response": "Opening Wallet."
+  },
+  {
+    "match": [
+      "show wallet"
+    ],
+    "response": "Opening Wallet."
+  },
+  {
+    "match": [
+      "go to wallet"
+    ],
+    "response": "Opening Wallet."
+  },
+  {
+    "match": [
+      "open my wallet"
+    ],
+    "response": "Opening Wallet."
+  },
+  {
+    "match": [
+      "take me to wallet"
+    ],
+    "response": "Opening Wallet."
+  },
+  {
+    "match": [
+      "wallet page"
+    ],
+    "response": "Opening Wallet."
+  },
+  {
+    "match": [
+      "wallet screen"
+    ],
+    "response": "Opening Wallet."
+  },
+  {
+    "match": [
+      "open money"
+    ],
+    "response": "Opening Wallet."
+  },
+  {
+    "match": [
+      "show money"
+    ],
+    "response": "Opening Wallet."
+  },
+  {
+    "match": [
+      "my wallet"
+    ],
+    "response": "Opening Wallet."
+  },
+  {
+    "match": [
+      "money page"
+    ],
+    "response": "Opening Wallet."
+  },
+  {
+    "match": [
+      "payments page"
+    ],
+    "response": "Opening Wallet."
+  },
+  {
+    "match": [
+      "open payments"
+    ],
+    "response": "Opening Wallet."
+  },
+  {
+    "match": [
+      "open finance"
+    ],
+    "response": "Opening Wallet."
+  },
+  {
+    "match": [
+      "show finance"
+    ],
+    "response": "Opening Wallet."
+  },
+  {
+    "match": [
+      "go into wallet"
+    ],
+    "response": "Opening Wallet."
+  },
+  {
+    "match": [
+      "take me into wallet"
+    ],
+    "response": "Opening Wallet."
+  },
+  {
+    "match": [
+      "connect"
+    ],
+    "response": "Opening Connect."
+  },
+  {
+    "match": [
+      "open connect"
+    ],
+    "response": "Opening Connect."
+  },
+  {
+    "match": [
+      "show connect"
+    ],
+    "response": "Opening Connect."
+  },
+  {
+    "match": [
+      "go to connect"
+    ],
+    "response": "Opening Connect."
+  },
+  {
+    "match": [
+      "open messages"
+    ],
+    "response": "Opening Connect."
+  },
+  {
+    "match": [
+      "open my messages"
+    ],
+    "response": "Opening Connect."
+  },
+  {
+    "match": [
+      "connect page"
+    ],
+    "response": "Opening Connect."
+  },
+  {
+    "match": [
+      "connect screen"
+    ],
+    "response": "Opening Connect."
+  },
+  {
+    "match": [
+      "show chats"
+    ],
+    "response": "Opening Connect."
+  },
+  {
+    "match": [
+      "chat page"
+    ],
+    "response": "Opening Connect."
+  },
+  {
+    "match": [
+      "people page"
+    ],
+    "response": "Opening Connect."
+  },
+  {
+    "match": [
+      "open people"
+    ],
+    "response": "Opening Connect."
+  },
+  {
+    "match": [
+      "open conversations"
+    ],
+    "response": "Opening Connect."
+  },
+  {
+    "match": [
+      "show conversations"
+    ],
+    "response": "Opening Connect."
+  },
+  {
+    "match": [
+      "message center"
+    ],
+    "response": "Opening Connect."
+  },
+  {
+    "match": [
+      "go into connect"
+    ],
+    "response": "Opening Connect."
+  },
+  {
+    "match": [
+      "take me into connect"
+    ],
+    "response": "Opening Connect."
+  },
+  {
+    "match": [
+      "media"
+    ],
+    "response": "Opening Media."
+  },
+  {
+    "match": [
+      "open media"
+    ],
+    "response": "Opening Media."
+  },
+  {
+    "match": [
+      "show media"
+    ],
+    "response": "Opening Media."
+  },
+  {
+    "match": [
+      "go to media"
+    ],
+    "response": "Opening Media."
+  },
+  {
+    "match": [
+      "open my media"
+    ],
+    "response": "Opening Media."
+  },
+  {
+    "match": [
+      "open music"
+    ],
+    "response": "Opening Media."
+  },
+  {
+    "match": [
+      "media page"
+    ],
+    "response": "Opening Media."
+  },
+  {
+    "match": [
+      "media screen"
+    ],
+    "response": "Opening Media."
+  },
+  {
+    "match": [
+      "open audio"
+    ],
+    "response": "Opening Media."
+  },
+  {
+    "match": [
+      "show audio"
+    ],
+    "response": "Opening Media."
+  },
+  {
+    "match": [
+      "audio player"
+    ],
+    "response": "Opening Media."
+  },
+  {
+    "match": [
+      "music page"
+    ],
+    "response": "Opening Media."
+  },
+  {
+    "match": [
+      "watch page"
+    ],
+    "response": "Opening Media."
+  },
+  {
+    "match": [
+      "entertainment page"
+    ],
+    "response": "Opening Media."
+  },
+  {
+    "match": [
+      "go into media"
+    ],
+    "response": "Opening Media."
+  },
+  {
+    "match": [
+      "take me into media"
+    ],
+    "response": "Opening Media."
+  },
+  {
+    "match": [
+      "travel"
+    ],
+    "response": "Opening Travel."
+  },
+  {
+    "match": [
+      "open travel"
+    ],
+    "response": "Opening Travel."
+  },
+  {
+    "match": [
+      "show travel"
+    ],
+    "response": "Opening Travel."
+  },
+  {
+    "match": [
+      "go to travel"
+    ],
+    "response": "Opening Travel."
+  },
+  {
+    "match": [
+      "open my travel"
+    ],
+    "response": "Opening Travel."
+  },
+  {
+    "match": [
+      "open trips"
+    ],
+    "response": "Opening Travel."
+  },
+  {
+    "match": [
+      "travel page"
+    ],
+    "response": "Opening Travel."
+  },
+  {
+    "match": [
+      "travel screen"
+    ],
+    "response": "Opening Travel."
+  },
+  {
+    "match": [
+      "trip page"
+    ],
+    "response": "Opening Travel."
+  },
+  {
+    "match": [
+      "journeys page"
+    ],
+    "response": "Opening Travel."
+  },
+  {
+    "match": [
+      "open journeys"
+    ],
+    "response": "Opening Travel."
+  },
+  {
+    "match": [
+      "my travel"
+    ],
+    "response": "Opening Travel."
+  },
+  {
+    "match": [
+      "go into travel"
+    ],
+    "response": "Opening Travel."
+  },
+  {
+    "match": [
+      "take me into travel"
+    ],
+    "response": "Opening Travel."
+  },
+  {
+    "match": [
+      "discover"
+    ],
+    "response": "Opening Discover."
+  },
+  {
+    "match": [
+      "open discover"
+    ],
+    "response": "Opening Discover."
+  },
+  {
+    "match": [
+      "show discover"
+    ],
+    "response": "Opening Discover."
+  },
+  {
+    "match": [
+      "go to discover"
+    ],
+    "response": "Opening Discover."
+  },
+  {
+    "match": [
+      "open my discover"
+    ],
+    "response": "Opening Discover."
+  },
+  {
+    "match": [
+      "open explore"
+    ],
+    "response": "Opening Discover."
+  },
+  {
+    "match": [
+      "discover page"
+    ],
+    "response": "Opening Discover."
+  },
+  {
+    "match": [
+      "discover screen"
+    ],
+    "response": "Opening Discover."
+  },
+  {
+    "match": [
+      "explore page"
+    ],
+    "response": "Opening Discover."
+  },
+  {
+    "match": [
+      "open exploration"
+    ],
+    "response": "Opening Discover."
+  },
+  {
+    "match": [
+      "show exploration"
+    ],
+    "response": "Opening Discover."
+  },
+  {
+    "match": [
+      "recommendation page"
+    ],
+    "response": "Opening Discover."
+  },
+  {
+    "match": [
+      "go into discover"
+    ],
+    "response": "Opening Discover."
+  },
+  {
+    "match": [
+      "take me into discover"
+    ],
+    "response": "Opening Discover."
+  },
+  {
+    "match": [
+      "settings"
+    ],
+    "response": "Opening Settings."
+  },
+  {
+    "match": [
+      "open settings"
+    ],
+    "response": "Opening Settings."
+  },
+  {
+    "match": [
+      "show settings"
+    ],
+    "response": "Opening Settings."
+  },
+  {
+    "match": [
+      "go to settings"
+    ],
+    "response": "Opening Settings."
+  },
+  {
+    "match": [
+      "open my settings"
+    ],
+    "response": "Opening Settings."
+  },
+  {
+    "match": [
+      "system settings"
+    ],
+    "response": "Opening Settings."
+  },
+  {
+    "match": [
+      "settings page"
+    ],
+    "response": "Opening Settings."
+  },
+  {
+    "match": [
+      "settings screen"
+    ],
+    "response": "Opening Settings."
+  },
+  {
+    "match": [
+      "system page"
+    ],
+    "response": "Opening Settings."
+  },
+  {
+    "match": [
+      "preferences"
+    ],
+    "response": "Opening Settings."
+  },
+  {
+    "match": [
+      "app preferences"
+    ],
+    "response": "Opening Settings."
+  },
+  {
+    "match": [
+      "open preferences"
+    ],
+    "response": "Opening Settings."
+  },
+  {
+    "match": [
+      "go into settings"
+    ],
+    "response": "Opening Settings."
+  },
+  {
+    "match": [
+      "take me into settings"
+    ],
+    "response": "Opening Settings."
+  },
+  {
+    "match": [
+      "focus"
+    ],
+    "response": "Starting focus."
+  },
+  {
+    "match": [
+      "start focus"
+    ],
+    "response": "Starting focus."
+  },
+  {
+    "match": [
+      "start focusing"
+    ],
+    "response": "Starting focus."
+  },
+  {
+    "match": [
+      "begin focus"
+    ],
+    "response": "Starting focus."
+  },
+  {
+    "match": [
+      "begin focusing"
+    ],
+    "response": "Starting focus."
+  },
+  {
+    "match": [
+      "start a focus session"
+    ],
+    "response": "Starting focus."
+  },
+  {
+    "match": [
+      "start focus mode"
+    ],
+    "response": "Starting focus."
+  },
+  {
+    "match": [
+      "turn on focus"
+    ],
+    "response": "Starting focus."
+  },
+  {
+    "match": [
+      "enable focus"
+    ],
+    "response": "Starting focus."
+  },
+  {
+    "match": [
+      "activate focus"
+    ],
+    "response": "Starting focus."
+  },
+  {
+    "match": [
+      "focus mode"
+    ],
+    "response": "Starting focus."
+  },
+  {
+    "match": [
+      "focus now"
+    ],
+    "response": "Starting focus."
+  },
+  {
+    "match": [
+      "lets focus"
+    ],
+    "response": "Starting focus."
+  },
+  {
+    "match": [
+      "let's focus"
+    ],
+    "response": "Starting focus."
+  },
+  {
+    "match": [
+      "i want to focus"
+    ],
+    "response": "Starting focus."
+  },
+  {
+    "match": [
+      "help me focus"
+    ],
+    "response": "Starting focus."
+  },
+  {
+    "match": [
+      "start my focus"
+    ],
+    "response": "Starting focus."
+  },
+  {
+    "match": [
+      "begin my focus"
+    ],
+    "response": "Starting focus."
+  },
+  {
+    "match": [
+      "start concentration"
+    ],
+    "response": "Starting focus."
+  },
+  {
+    "match": [
+      "begin concentration"
+    ],
+    "response": "Starting focus."
+  },
+  {
+    "match": [
+      "concentration mode"
+    ],
+    "response": "Starting focus."
+  },
+  {
+    "match": [
+      "focus session"
+    ],
+    "response": "Starting focus."
+  },
+  {
+    "match": [
+      "focus timer now"
+    ],
+    "response": "Starting focus."
+  },
+  {
+    "match": [
+      "hello"
+    ],
+    "response": "Hello. I am Liora AI."
+  },
+  {
+    "match": [
+      "hi"
+    ],
+    "response": "Hello. I am Liora AI."
+  },
+  {
+    "match": [
+      "hey"
+    ],
+    "response": "Hello. I am Liora AI."
+  },
+  {
+    "match": [
+      "hiya"
+    ],
+    "response": "Hello. I am Liora AI."
+  },
+  {
+    "match": [
+      "hey liora"
+    ],
+    "response": "Hello. I am Liora AI."
+  },
+  {
+    "match": [
+      "hello liora"
+    ],
+    "response": "Hello. I am Liora AI."
+  },
+  {
+    "match": [
+      "hi liora"
+    ],
+    "response": "Hello. I am Liora AI."
+  },
+  {
+    "match": [
+      "good morning"
+    ],
+    "response": "Hello. I am Liora AI."
+  },
+  {
+    "match": [
+      "good afternoon"
+    ],
+    "response": "Hello. I am Liora AI."
+  },
+  {
+    "match": [
+      "good evening"
+    ],
+    "response": "Hello. I am Liora AI."
+  },
+  {
+    "match": [
+      "good night"
+    ],
+    "response": "Hello. I am Liora AI."
+  },
+  {
+    "match": [
+      "greetings"
+    ],
+    "response": "Hello. I am Liora AI."
+  },
+  {
+    "match": [
+      "yo"
+    ],
+    "response": "Hello. I am Liora AI."
+  },
+  {
+    "match": [
+      "sup"
+    ],
+    "response": "Hello. I am Liora AI."
+  },
+  {
+    "match": [
+      "what is up"
+    ],
+    "response": "Hello. I am Liora AI."
+  },
+  {
+    "match": [
+      "whats up"
+    ],
+    "response": "Hello. I am Liora AI."
+  },
+  {
+    "match": [
+      "nice to see you"
+    ],
+    "response": "Hello. I am Liora AI."
+  },
+  {
+    "match": [
+      "hello there"
+    ],
+    "response": "Hello. I am Liora AI."
+  },
+  {
+    "match": [
+      "what is liora"
+    ],
+    "response": "Liora is your personal environment for planning, notes, money, media, travel, discovery and more."
+  },
+  {
+    "match": [
+      "tell me about liora"
+    ],
+    "response": "Liora brings your everyday personal spaces together in one place."
+  },
+  {
+    "match": [
+      "what can you do"
+    ],
+    "response": "I can answer fixed commands from the Liora command library and open supported spaces."
+  },
+  {
+    "match": [
+      "what can liora do"
+    ],
+    "response": "Liora can organize tasks, habits, goals, notes, wallet details, messages, media, travel and discovery."
+  },
+  {
+    "match": [
+      "help"
+    ],
+    "response": "Try commands like open planner, open notes, open wallet, start focus, open media, or open settings."
+  },
+  {
+    "match": [
+      "show help"
+    ],
+    "response": "Try commands like open planner, open notes, open wallet, start focus, open media, or open settings."
+  },
+  {
+    "match": [
+      "what commands do you know"
+    ],
+    "response": "I know commands for navigation, planning, focus, notes, wallet, connect, media, travel, discover, settings and app actions."
+  },
+  {
+    "match": [
+      "how do i use liora"
+    ],
+    "response": "Use the navigation to open a space, or type a supported command here."
+  },
+  {
+    "match": [
+      "what is liora ai"
+    ],
+    "response": "Liora AI is the fixed-command assistant inside Liora."
+  },
+  {
+    "match": [
+      "what is ai"
+    ],
+    "response": "Liora AI uses a fixed local command list to match your message and return the saved response."
+  },
+  {
+    "match": [
+      "who are you"
+    ],
+    "response": "I am Liora AI."
+  },
+  {
+    "match": [
+      "what is your name"
+    ],
+    "response": "I am Liora AI."
+  },
+  {
+    "match": [
+      "your name"
+    ],
+    "response": "I am Liora AI."
+  },
+  {
+    "match": [
+      "are you liora"
+    ],
+    "response": "Yes. I am Liora AI."
+  },
+  {
+    "match": [
+      "bye"
+    ],
+    "response": "Goodbye."
+  },
+  {
+    "match": [
+      "goodbye"
+    ],
+    "response": "Goodbye."
+  },
+  {
+    "match": [
+      "thanks"
+    ],
+    "response": "You are welcome."
+  },
+  {
+    "match": [
+      "thank you"
+    ],
+    "response": "You are welcome."
+  },
+  {
+    "match": [
+      "thank you liora"
+    ],
+    "response": "You are welcome."
+  },
+  {
+    "match": [
+      "add task"
+    ],
+    "response": "Open Planner and use Add task to create a task."
+  },
+  {
+    "match": [
+      "new task"
+    ],
+    "response": "Open Planner and use the Task button to create a task."
+  },
+  {
+    "match": [
+      "create task"
+    ],
+    "response": "Open Planner and use Add task to create a task."
+  },
+  {
+    "match": [
+      "make a task"
+    ],
+    "response": "Open Planner and use Add task to create a task."
+  },
+  {
+    "match": [
+      "add a task"
+    ],
+    "response": "Open Planner and use Add task to create a task."
+  },
+  {
+    "match": [
+      "add event"
+    ],
+    "response": "Open Planner and use the Event button to create an event."
+  },
+  {
+    "match": [
+      "new event"
+    ],
+    "response": "Open Planner and use the Event button to create an event."
+  },
+  {
+    "match": [
+      "create event"
+    ],
+    "response": "Open Planner and use the Event button to create an event."
+  },
+  {
+    "match": [
+      "make an event"
+    ],
+    "response": "Open Planner and use the Event button to create an event."
+  },
+  {
+    "match": [
+      "add habit"
+    ],
+    "response": "Open Planner and use Add habit to create a habit."
+  },
+  {
+    "match": [
+      "new habit"
+    ],
+    "response": "Open Planner and use Add habit to create a habit."
+  },
+  {
+    "match": [
+      "create habit"
+    ],
+    "response": "Open Planner and use Add habit to create a habit."
+  },
+  {
+    "match": [
+      "add goal"
+    ],
+    "response": "Open Planner and use Add goal to create a goal."
+  },
+  {
+    "match": [
+      "new goal"
+    ],
+    "response": "Open Planner and use Add goal to create a goal."
+  },
+  {
+    "match": [
+      "create goal"
+    ],
+    "response": "Open Planner and use Add goal to create a goal."
+  },
+  {
+    "match": [
+      "show tasks"
+    ],
+    "response": "Opening Planner."
+  },
+  {
+    "match": [
+      "show my tasks"
+    ],
+    "response": "Opening Planner."
+  },
+  {
+    "match": [
+      "what tasks do i have"
+    ],
+    "response": "Opening Planner."
+  },
+  {
+    "match": [
+      "show habits"
+    ],
+    "response": "Opening Planner."
+  },
+  {
+    "match": [
+      "show my habits"
+    ],
+    "response": "Opening Planner."
+  },
+  {
+    "match": [
+      "show goals"
+    ],
+    "response": "Opening Planner."
+  },
+  {
+    "match": [
+      "show my goals"
+    ],
+    "response": "Opening Planner."
+  },
+  {
+    "match": [
+      "show events"
+    ],
+    "response": "Opening Planner."
+  },
+  {
+    "match": [
+      "show my events"
+    ],
+    "response": "Opening Planner."
+  },
+  {
+    "match": [
+      "today plan"
+    ],
+    "response": "Opening Planner."
+  },
+  {
+    "match": [
+      "today's plan"
+    ],
+    "response": "Opening Planner."
+  },
+  {
+    "match": [
+      "todays plan"
+    ],
+    "response": "Opening Planner."
+  },
+  {
+    "match": [
+      "my plan"
+    ],
+    "response": "Opening Planner."
+  },
+  {
+    "match": [
+      "plan my day"
+    ],
+    "response": "Opening Planner."
+  },
+  {
+    "match": [
+      "organize my day"
+    ],
+    "response": "Opening Planner."
+  },
+  {
+    "match": [
+      "daily plan"
+    ],
+    "response": "Opening Planner."
+  },
+  {
+    "match": [
+      "weekly plan"
+    ],
+    "response": "Opening Planner."
+  },
+  {
+    "match": [
+      "what do i need to do"
+    ],
+    "response": "Opening Planner."
+  },
+  {
+    "match": [
+      "what should i do"
+    ],
+    "response": "Opening Planner."
+  },
+  {
+    "match": [
+      "focus timer"
+    ],
+    "response": "Open Planner to use the Focus timer."
+  },
+  {
+    "match": [
+      "focus timing"
+    ],
+    "response": "Open Planner and choose Focus timing to change the session length."
+  },
+  {
+    "match": [
+      "change focus timing"
+    ],
+    "response": "Open Planner and choose Focus timing to change the session length."
+  },
+  {
+    "match": [
+      "change focus time"
+    ],
+    "response": "Open Planner and choose Focus timing to change the session length."
+  },
+  {
+    "match": [
+      "set focus time"
+    ],
+    "response": "Open Planner and choose Focus timing to choose a session length."
+  },
+  {
+    "match": [
+      "show focus time"
+    ],
+    "response": "Open Planner to see the current Focus session."
+  },
+  {
+    "match": [
+      "focus today"
+    ],
+    "response": "Open Planner to see today focused time."
+  },
+  {
+    "match": [
+      "how much did i focus today"
+    ],
+    "response": "Open Planner to see today focused time."
+  },
+  {
+    "match": [
+      "pause focus"
+    ],
+    "response": "Use the Focus control in Planner to pause the current session."
+  },
+  {
+    "match": [
+      "stop focus"
+    ],
+    "response": "Use the Focus control in Planner to stop the current session."
+  },
+  {
+    "match": [
+      "reset focus"
+    ],
+    "response": "Use the Focus reset control in Planner to reset the current session."
+  },
+  {
+    "match": [
+      "new note"
+    ],
+    "response": "Open Notes and use New note to create a note."
+  },
+  {
+    "match": [
+      "add note"
+    ],
+    "response": "Open Notes and use New note to create a note."
+  },
+  {
+    "match": [
+      "create note"
+    ],
+    "response": "Open Notes and use New note to create a note."
+  },
+  {
+    "match": [
+      "write a note"
+    ],
+    "response": "Open Notes and start a new note."
+  },
+  {
+    "match": [
+      "make a note"
+    ],
+    "response": "Open Notes and use New note to create a note."
+  },
+  {
+    "match": [
+      "attach image"
+    ],
+    "response": "Open Notes and use the image upload button to attach an image."
+  },
+  {
+    "match": [
+      "upload image"
+    ],
+    "response": "Open Notes and use the image upload button to attach an image."
+  },
+  {
+    "match": [
+      "add image to notes"
+    ],
+    "response": "Open Notes and use the image upload button to attach an image."
+  },
+  {
+    "match": [
+      "find a note"
+    ],
+    "response": "Open Notes and use Search to find a note."
+  },
+  {
+    "match": [
+      "search notes"
+    ],
+    "response": "Open Notes and use Search to find a note."
+  },
+  {
+    "match": [
+      "delete a note"
+    ],
+    "response": "Open Notes, select the note, and use Delete."
+  },
+  {
+    "match": [
+      "view note images"
+    ],
+    "response": "Open Notes to view attached images below the note text."
+  },
+  {
+    "match": [
+      "send money"
+    ],
+    "response": "Open Wallet and choose Send money."
+  },
+  {
+    "match": [
+      "send cash"
+    ],
+    "response": "Open Wallet and choose Send money."
+  },
+  {
+    "match": [
+      "make a payment"
+    ],
+    "response": "Open Wallet and choose Send money."
+  },
+  {
+    "match": [
+      "pay someone"
+    ],
+    "response": "Open Wallet and choose Send money."
+  },
+  {
+    "match": [
+      "upi payment"
+    ],
+    "response": "Open Wallet and choose Send money for a UPI payment."
+  },
+  {
+    "match": [
+      "send upi"
+    ],
+    "response": "Open Wallet and choose Send money for a UPI payment."
+  },
+  {
+    "match": [
+      "request money"
+    ],
+    "response": "Open Wallet and choose Request to prepare a money request."
+  },
+  {
+    "match": [
+      "ask for money"
+    ],
+    "response": "Open Wallet and choose Request to prepare a money request."
+  },
+  {
+    "match": [
+      "request a payment"
+    ],
+    "response": "Open Wallet and choose Request to prepare a money request."
+  },
+  {
+    "match": [
+      "check wallet"
+    ],
+    "response": "Opening Wallet."
+  },
+  {
+    "match": [
+      "check balance"
+    ],
+    "response": "Opening Wallet."
+  },
+  {
+    "match": [
+      "show balance"
+    ],
+    "response": "Opening Wallet."
+  },
+  {
+    "match": [
+      "what is my balance"
+    ],
+    "response": "Open Wallet to view your current balance."
+  },
+  {
+    "match": [
+      "wallet balance"
+    ],
+    "response": "Open Wallet to view your current balance."
+  },
+  {
+    "match": [
+      "show wallet balance"
+    ],
+    "response": "Open Wallet to view your current balance."
+  },
+  {
+    "match": [
+      "recent payments"
+    ],
+    "response": "Open Wallet to view recent paid and received amounts."
+  },
+  {
+    "match": [
+      "show transactions"
+    ],
+    "response": "Open Wallet to view your transaction list."
+  },
+  {
+    "match": [
+      "transaction history"
+    ],
+    "response": "Open Wallet to view your transaction history."
+  },
+  {
+    "match": [
+      "payment history"
+    ],
+    "response": "Open Wallet to view your payment history."
+  },
+  {
+    "match": [
+      "wallet accounts"
+    ],
+    "response": "Open Wallet to view Saving, Current and Cash."
+  },
+  {
+    "match": [
+      "saving account"
+    ],
+    "response": "Open Wallet to view the Saving account."
+  },
+  {
+    "match": [
+      "current account"
+    ],
+    "response": "Open Wallet to view the Current account."
+  },
+  {
+    "match": [
+      "cash account"
+    ],
+    "response": "Open Wallet to view the Cash account."
+  },
+  {
+    "match": [
+      "upi id"
+    ],
+    "response": "Open Wallet to view or update your UPI ID."
+  },
+  {
+    "match": [
+      "change upi id"
+    ],
+    "response": "Open Wallet to update your UPI ID."
+  },
+  {
+    "match": [
+      "add upi id"
+    ],
+    "response": "Open Wallet to set your UPI ID."
+  },
+  {
+    "match": [
+      "wallet setup"
+    ],
+    "response": "Open Wallet to complete wallet setup."
+  },
+  {
+    "match": [
+      "set up wallet"
+    ],
+    "response": "Open Wallet to complete wallet setup."
+  },
+  {
+    "match": [
+      "new message"
+    ],
+    "response": "Open Connect and use New message to start a conversation."
+  },
+  {
+    "match": [
+      "send message"
+    ],
+    "response": "Open Connect and choose a conversation to send a message."
+  },
+  {
+    "match": [
+      "message someone"
+    ],
+    "response": "Open Connect and use New message to start a conversation."
+  },
+  {
+    "match": [
+      "start a chat"
+    ],
+    "response": "Open Connect and use New message to start a conversation."
+  },
+  {
+    "match": [
+      "new chat"
+    ],
+    "response": "Open Connect and use New message to start a conversation."
+  },
+  {
+    "match": [
+      "create chat"
+    ],
+    "response": "Open Connect and use New message to start a conversation."
+  },
+  {
+    "match": [
+      "new group"
+    ],
+    "response": "Open Connect and use New group to create a group."
+  },
+  {
+    "match": [
+      "create group"
+    ],
+    "response": "Open Connect and use New group to create a group."
+  },
+  {
+    "match": [
+      "make a group"
+    ],
+    "response": "Open Connect and use New group to create a group."
+  },
+  {
+    "match": [
+      "start group"
+    ],
+    "response": "Open Connect and use New group to create a group."
+  },
+  {
+    "match": [
+      "show contacts"
+    ],
+    "response": "Opening Connect."
+  },
+  {
+    "match": [
+      "show people"
+    ],
+    "response": "Opening Connect."
+  },
+  {
+    "match": [
+      "show messages"
+    ],
+    "response": "Opening Connect."
+  },
+  {
+    "match": [
+      "open chat"
+    ],
+    "response": "Opening Connect."
+  },
+  {
+    "match": [
+      "send a text"
+    ],
+    "response": "Open Connect and choose a conversation to send a message."
+  },
+  {
+    "match": [
+      "message a number"
+    ],
+    "response": "Open Connect and use New message with a phone number."
+  },
+  {
+    "match": [
+      "message a username"
+    ],
+    "response": "Open Connect and use New message with a username."
+  },
+  {
+    "match": [
+      "text someone"
+    ],
+    "response": "Open Connect and use New message to start a conversation."
+  },
+  {
+    "match": [
+      "play music"
+    ],
+    "response": "Opening Media."
+  },
+  {
+    "match": [
+      "play a song"
+    ],
+    "response": "Opening Media."
+  },
+  {
+    "match": [
+      "play something"
+    ],
+    "response": "Opening Media."
+  },
+  {
+    "match": [
+      "open player"
+    ],
+    "response": "Opening Media."
+  },
+  {
+    "match": [
+      "music player"
+    ],
+    "response": "Opening Media."
+  },
+  {
+    "match": [
+      "video player"
+    ],
+    "response": "Opening Media."
+  },
+  {
+    "match": [
+      "watch video"
+    ],
+    "response": "Opening Media."
+  },
+  {
+    "match": [
+      "listen to music"
+    ],
+    "response": "Opening Media."
+  },
+  {
+    "match": [
+      "add media"
+    ],
+    "response": "Open Media and use Add media."
+  },
+  {
+    "match": [
+      "add a song"
+    ],
+    "response": "Open Media and use Add media to add a song."
+  },
+  {
+    "match": [
+      "add music"
+    ],
+    "response": "Open Media and use Add media to add a song."
+  },
+  {
+    "match": [
+      "add a video"
+    ],
+    "response": "Open Media and use Add media to add a video."
+  },
+  {
+    "match": [
+      "add youtube"
+    ],
+    "response": "Open Media and paste a YouTube link."
+  },
+  {
+    "match": [
+      "add youtube link"
+    ],
+    "response": "Open Media and paste a YouTube link."
+  },
+  {
+    "match": [
+      "play youtube"
+    ],
+    "response": "Open Media and paste a YouTube link to use the embedded player."
+  },
+  {
+    "match": [
+      "youtube video"
+    ],
+    "response": "Open Media and paste a YouTube link."
+  },
+  {
+    "match": [
+      "search media"
+    ],
+    "response": "Open Media and use search to find an item."
+  },
+  {
+    "match": [
+      "delete media"
+    ],
+    "response": "Open Media and use the delete control on an item."
+  },
+  {
+    "match": [
+      "remove song"
+    ],
+    "response": "Open Media and use the delete control on an item."
+  },
+  {
+    "match": [
+      "remove video"
+    ],
+    "response": "Open Media and use the delete control on an item."
+  },
+  {
+    "match": [
+      "plan a trip"
+    ],
+    "response": "Open Travel and use Plan a trip."
+  },
+  {
+    "match": [
+      "plan trip"
+    ],
+    "response": "Open Travel and use Plan a trip."
+  },
+  {
+    "match": [
+      "new trip"
+    ],
+    "response": "Open Travel and use Plan a trip."
+  },
+  {
+    "match": [
+      "create trip"
+    ],
+    "response": "Open Travel and use Plan a trip."
+  },
+  {
+    "match": [
+      "start a trip plan"
+    ],
+    "response": "Open Travel and use Plan a trip."
+  },
+  {
+    "match": [
+      "show trips"
+    ],
+    "response": "Opening Travel."
+  },
+  {
+    "match": [
+      "show my trips"
+    ],
+    "response": "Opening Travel."
+  },
+  {
+    "match": [
+      "saved places"
+    ],
+    "response": "Open Travel to view saved places."
+  },
+  {
+    "match": [
+      "add place"
+    ],
+    "response": "Open Travel and use Add place."
+  },
+  {
+    "match": [
+      "save a place"
+    ],
+    "response": "Open Travel and use Add place."
+  },
+  {
+    "match": [
+      "add saved place"
+    ],
+    "response": "Open Travel and use Add place."
+  },
+  {
+    "match": [
+      "delete saved place"
+    ],
+    "response": "Open Travel and use the delete control for a saved place."
+  },
+  {
+    "match": [
+      "remove saved place"
+    ],
+    "response": "Open Travel and use the delete control for a saved place."
+  },
+  {
+    "match": [
+      "trip date"
+    ],
+    "response": "Open Travel and choose the trip start date."
+  },
+  {
+    "match": [
+      "start date"
+    ],
+    "response": "Open Travel and choose the trip start date."
+  },
+  {
+    "match": [
+      "explore"
+    ],
+    "response": "Opening Discover."
+  },
+  {
+    "match": [
+      "explore something"
+    ],
+    "response": "Opening Discover."
+  },
+  {
+    "match": [
+      "show recommendations"
+    ],
+    "response": "Opening Discover."
+  },
+  {
+    "match": [
+      "show me something"
+    ],
+    "response": "Opening Discover."
+  },
+  {
+    "match": [
+      "find something interesting"
+    ],
+    "response": "Opening Discover."
+  },
+  {
+    "match": [
+      "discover something"
+    ],
+    "response": "Opening Discover."
+  },
+  {
+    "match": [
+      "browse discover"
+    ],
+    "response": "Opening Discover."
+  },
+  {
+    "match": [
+      "show interests"
+    ],
+    "response": "Opening Discover."
+  },
+  {
+    "match": [
+      "change interests"
+    ],
+    "response": "Open Discover to update your selected interests."
+  },
+  {
+    "match": [
+      "select interests"
+    ],
+    "response": "Open Discover to update your selected interests."
+  },
+  {
+    "match": [
+      "save for later"
+    ],
+    "response": "Open Discover and use Save for later on an item."
+  },
+  {
+    "match": [
+      "saved for later"
+    ],
+    "response": "Open Discover to view saved items."
+  },
+  {
+    "match": [
+      "show saved items"
+    ],
+    "response": "Open Discover to view saved items."
+  },
+  {
+    "match": [
+      "open saved items"
+    ],
+    "response": "Open Discover to view saved items."
+  },
+  {
+    "match": [
+      "read something"
+    ],
+    "response": "Opening Discover."
+  },
+  {
+    "match": [
+      "watch something"
+    ],
+    "response": "Opening Discover."
+  },
+  {
+    "match": [
+      "listen to something"
+    ],
+    "response": "Opening Discover."
+  },
+  {
+    "match": [
+      "dark mode"
+    ],
+    "response": "Open Settings to switch the theme."
+  },
+  {
+    "match": [
+      "light mode"
+    ],
+    "response": "Open Settings to switch the theme."
+  },
+  {
+    "match": [
+      "switch theme"
+    ],
+    "response": "Open Settings to switch the theme."
+  },
+  {
+    "match": [
+      "change theme"
+    ],
+    "response": "Open Settings to switch the theme."
+  },
+  {
+    "match": [
+      "app settings"
+    ],
+    "response": "Opening Settings."
+  },
+  {
+    "match": [
+      "notifications"
+    ],
+    "response": "Open Settings to manage browser notifications."
+  },
+  {
+    "match": [
+      "enable notifications"
+    ],
+    "response": "Open Settings to request browser notifications."
+  },
+  {
+    "match": [
+      "turn on notifications"
+    ],
+    "response": "Open Settings to request browser notifications."
+  },
+  {
+    "match": [
+      "allow notifications"
+    ],
+    "response": "Open Settings to request browser notifications."
+  },
+  {
+    "match": [
+      "morning brief"
+    ],
+    "response": "Open Settings to manage Short Brief."
+  },
+  {
+    "match": [
+      "short brief"
+    ],
+    "response": "Open Settings to manage Short Brief."
+  },
+  {
+    "match": [
+      "brief settings"
+    ],
+    "response": "Open Settings to manage Short Brief."
+  },
+  {
+    "match": [
+      "install liora"
+    ],
+    "response": "Open Settings to install Liora on a supported device."
+  },
+  {
+    "match": [
+      "add liora to home screen"
+    ],
+    "response": "Open Settings to install Liora on a supported device."
+  },
+  {
+    "match": [
+      "install the app"
+    ],
+    "response": "Open Settings to install Liora on a supported device."
+  },
+  {
+    "match": [
+      "offline mode"
+    ],
+    "response": "Liora can use its cached app shell offline after it has been opened online."
+  },
+  {
+    "match": [
+      "offline support"
+    ],
+    "response": "Liora can use its cached app shell offline after it has been opened online."
+  },
+  {
+    "match": [
+      "check for updates"
+    ],
+    "response": "Open Settings and use Check for updates."
+  },
+  {
+    "match": [
+      "export data"
+    ],
+    "response": "Open Settings and use Export data to save your Liora data."
+  },
+  {
+    "match": [
+      "reset data"
+    ],
+    "response": "Open Settings and use Reset data if you want to clear Liora data."
+  },
+  {
+    "match": [
+      "complete task"
+    ],
+    "response": "Open Planner and check off the task when it is complete."
+  },
+  {
+    "match": [
+      "finish task"
+    ],
+    "response": "Open Planner and check off the task when it is complete."
+  },
+  {
+    "match": [
+      "mark task done"
+    ],
+    "response": "Open Planner and check off the task when it is complete."
+  },
+  {
+    "match": [
+      "complete habit"
+    ],
+    "response": "Open Planner and check the habit for today."
+  },
+  {
+    "match": [
+      "mark habit done"
+    ],
+    "response": "Open Planner and check the habit for today."
+  },
+  {
+    "match": [
+      "delete goal"
+    ],
+    "response": "Open Planner and use the goal delete control."
+  },
+  {
+    "match": [
+      "remove goal"
+    ],
+    "response": "Open Planner and use the goal delete control."
+  },
+  {
+    "match": [
+      "edit goal"
+    ],
+    "response": "Open Planner and use the goal edit control."
+  },
+  {
+    "match": [
+      "add task to goal"
+    ],
+    "response": "Open Planner and add a task under the chosen goal."
+  },
+  {
+    "match": [
+      "are you online"
+    ],
+    "response": "Your Liora app can show its current connection state."
+  },
+  {
+    "match": [
+      "do you work offline"
+    ],
+    "response": "The installed or cached Liora app can reopen offline, while network features still need internet."
+  },
+  {
+    "match": [
+      "can you work offline"
+    ],
+    "response": "The installed or cached Liora app can reopen offline, while network features still need internet."
+  },
+  {
+    "match": [
+      "can i install liora"
+    ],
+    "response": "Yes. When Liora is hosted on HTTPS, it can be installed as a web app."
+  },
+  {
+    "match": [
+      "can liora be installed"
+    ],
+    "response": "Yes. When Liora is hosted on HTTPS, it can be installed as a web app."
+  },
+  {
+    "match": [
+      "can i use liora on my phone"
+    ],
+    "response": "Yes. Liora is designed for mobile browsers and installed web apps."
+  },
+  {
+    "match": [
+      "can i use liora without internet"
+    ],
+    "response": "The cached app shell can work offline; network services need internet."
+  },
+  {
+    "match": [
+      "can i add youtube videos"
+    ],
+    "response": "Yes. Open Media and paste a YouTube link. Embedding depends on that video."
+  },
+  {
+    "match": [
+      "can youtube play in liora"
+    ],
+    "response": "Yes. Open Media and paste a YouTube link. Embedding depends on the video."
+  },
+  {
+    "match": [
+      "can i save things"
+    ],
+    "response": "You can save Discover items for later and keep local Liora data in the browser."
+  },
+  {
+    "match": [
+      "does liora save data"
+    ],
+    "response": "Liora stores local app data in browser storage on your device."
+  },
+  {
+    "match": [
+      "where is my data"
+    ],
+    "response": "Your local Liora state is stored in browser storage on the device."
+  },
+  {
+    "match": [
+      "what does the service worker do"
+    ],
+    "response": "The Liora service worker supports offline caching and background web-app capabilities."
+  },
+  {
+    "match": [
+      "what is the manifest"
+    ],
+    "response": "The web manifest tells the browser how Liora is installed and displayed as an app."
+  },
+  {
+    "match": [
+      "what is a pwa"
+    ],
+    "response": "A PWA is a website that can provide app-like installation, caching and other browser features."
+  },
+  {
+    "match": [
+      "what is offline support"
+    ],
+    "response": "Offline support lets Liora reopen from cached app files when the network is unavailable."
+  },
+  {
+    "match": [
+      "show my planning"
+    ],
+    "response": "Opening Planner."
+  },
+  {
+    "match": [
+      "open plans"
+    ],
+    "response": "Opening Planner."
+  },
+  {
+    "match": [
+      "show plans"
+    ],
+    "response": "Opening Planner."
+  },
+  {
+    "match": [
+      "open my schedule"
+    ],
+    "response": "Opening Planner."
+  },
+  {
+    "match": [
+      "show schedule"
+    ],
+    "response": "Opening Planner."
+  },
+  {
+    "match": [
+      "my schedule"
+    ],
+    "response": "Opening Planner."
+  },
+  {
+    "match": [
+      "open calendar"
+    ],
+    "response": "Opening Planner."
+  },
+  {
+    "match": [
+      "show calendar"
+    ],
+    "response": "Opening Planner."
+  },
+  {
+    "match": [
+      "planning"
+    ],
+    "response": "Opening Planner."
+  },
+  {
+    "match": [
+      "plan page"
+    ],
+    "response": "Opening Planner."
+  },
+  {
+    "match": [
+      "task page"
+    ],
+    "response": "Opening Planner."
+  },
+  {
+    "match": [
+      "open my notebook"
+    ],
+    "response": "Opening Notes."
+  },
+  {
+    "match": [
+      "show my notebook"
+    ],
+    "response": "Opening Notes."
+  },
+  {
+    "match": [
+      "notebook"
+    ],
+    "response": "Opening Notes."
+  },
+  {
+    "match": [
+      "knowledge page"
+    ],
+    "response": "Opening Notes."
+  },
+  {
+    "match": [
+      "writing page"
+    ],
+    "response": "Opening Notes."
+  },
+  {
+    "match": [
+      "note page"
+    ],
+    "response": "Opening Notes."
+  },
+  {
+    "match": [
+      "notes area"
+    ],
+    "response": "Opening Notes."
+  },
+  {
+    "match": [
+      "my notes page"
+    ],
+    "response": "Opening Notes."
+  },
+  {
+    "match": [
+      "open my money"
+    ],
+    "response": "Opening Wallet."
+  },
+  {
+    "match": [
+      "money"
+    ],
+    "response": "Opening Wallet."
+  },
+  {
+    "match": [
+      "finance"
+    ],
+    "response": "Opening Wallet."
+  },
+  {
+    "match": [
+      "payments"
+    ],
+    "response": "Opening Wallet."
+  },
+  {
+    "match": [
+      "payment page"
+    ],
+    "response": "Opening Wallet."
+  },
+  {
+    "match": [
+      "bank page"
+    ],
+    "response": "Opening Wallet."
+  },
+  {
+    "match": [
+      "cash page"
+    ],
+    "response": "Opening Wallet."
+  },
+  {
+    "match": [
+      "money space"
+    ],
+    "response": "Opening Wallet."
+  },
+  {
+    "match": [
+      "wallet area"
+    ],
+    "response": "Opening Wallet."
+  },
+  {
+    "match": [
+      "messages"
+    ],
+    "response": "Opening Connect."
+  },
+  {
+    "match": [
+      "chat"
+    ],
+    "response": "Opening Connect."
+  },
+  {
+    "match": [
+      "chats"
+    ],
+    "response": "Opening Connect."
+  },
+  {
+    "match": [
+      "people"
+    ],
+    "response": "Opening Connect."
+  },
+  {
+    "match": [
+      "contacts"
+    ],
+    "response": "Opening Connect."
+  },
+  {
+    "match": [
+      "conversation"
+    ],
+    "response": "Opening Connect."
+  },
+  {
+    "match": [
+      "conversations"
+    ],
+    "response": "Opening Connect."
+  },
+  {
+    "match": [
+      "message page"
+    ],
+    "response": "Opening Connect."
+  },
+  {
+    "match": [
+      "connect area"
+    ],
+    "response": "Opening Connect."
+  },
+  {
+    "match": [
+      "music"
+    ],
+    "response": "Opening Media."
+  },
+  {
+    "match": [
+      "audio"
+    ],
+    "response": "Opening Media."
+  },
+  {
+    "match": [
+      "videos"
+    ],
+    "response": "Opening Media."
+  },
+  {
+    "match": [
+      "media player"
+    ],
+    "response": "Opening Media."
+  },
+  {
+    "match": [
+      "media area"
+    ],
+    "response": "Opening Media."
+  },
+  {
+    "match": [
+      "songs"
+    ],
+    "response": "Opening Media."
+  },
+  {
+    "match": [
+      "entertainment"
+    ],
+    "response": "Opening Media."
+  },
+  {
+    "match": [
+      "player"
+    ],
+    "response": "Opening Media."
+  },
+  {
+    "match": [
+      "trips"
+    ],
+    "response": "Opening Travel."
+  },
+  {
+    "match": [
+      "journeys"
+    ],
+    "response": "Opening Travel."
+  },
+  {
+    "match": [
+      "trip planner"
+    ],
+    "response": "Opening Travel."
+  },
+  {
+    "match": [
+      "travel planner"
+    ],
+    "response": "Opening Travel."
+  },
+  {
+    "match": [
+      "travel area"
+    ],
+    "response": "Opening Travel."
+  },
+  {
+    "match": [
+      "journey planner"
+    ],
+    "response": "Opening Travel."
+  },
+  {
+    "match": [
+      "discovery"
+    ],
+    "response": "Opening Discover."
+  },
+  {
+    "match": [
+      "discovery page"
+    ],
+    "response": "Opening Discover."
+  },
+  {
+    "match": [
+      "discover area"
+    ],
+    "response": "Opening Discover."
+  },
+  {
+    "match": [
+      "recommendations"
+    ],
+    "response": "Opening Discover."
+  },
+  {
+    "match": [
+      "explore space"
+    ],
+    "response": "Opening Discover."
+  },
+  {
+    "match": [
+      "settings area"
+    ],
+    "response": "Opening Settings."
+  },
+  {
+    "match": [
+      "system controls"
+    ],
+    "response": "Opening Settings."
+  },
+  {
+    "match": [
+      "controls"
+    ],
+    "response": "Opening Settings."
+  },
+  {
+    "match": [
+      "app controls"
+    ],
+    "response": "Opening Settings."
+  },
+  {
+    "match": [
+      "configuration"
+    ],
+    "response": "Opening Settings."
+  }
+]
