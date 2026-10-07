@@ -1,0 +1,205 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 1536 385"
+     width="1536" height="385"
+     role="img" aria-labelledby="title desc">
+  <title id="title">Liora animated banner</title>
+  <desc id="desc">Liora neon blue and violet animated project banner.</desc>
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#030713"/>
+      <stop offset=".5" stop-color="#070D1F"/>
+      <stop offset="1" stop-color="#0D1029"/>
+    </linearGradient>
+
+    <linearGradient id="neon" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#38D9FF"/>
+      <stop offset=".48" stop-color="#7182FF"/>
+      <stop offset="1" stop-color="#E27CFF"/>
+    </linearGradient>
+
+    <linearGradient id="logo" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#50E0FF"/>
+      <stop offset=".45" stop-color="#9AA0FF"/>
+      <stop offset="1" stop-color="#F09BFF"/>
+    </linearGradient>
+
+    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+
+    <filter id="soft" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+
+    <clipPath id="clip">
+      <rect x="2" y="2" width="1532" height="381" rx="30"/>
+    </clipPath>
+  </defs>
+
+  <!-- No pixels exist outside this rounded frame -->
+  <rect x="2" y="2" width="1532" height="381" rx="30"
+        fill="url(#bg)" stroke="url(#neon)" stroke-width="3"/>
+
+  <g clip-path="url(#clip)">
+
+    <!-- restrained ambient glow -->
+    <circle cx="250" cy="195" r="150" fill="#35D9FF" opacity=".08" filter="url(#soft)">
+      <animate attributeName="cx" values="250;335;250" dur="9s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1285" cy="190" r="165" fill="#A86CFF" opacity=".08" filter="url(#soft)">
+      <animate attributeName="cx" values="1285;1195;1285" dur="10s" repeatCount="indefinite"/>
+    </circle>
+
+    <!-- thin orbit lines -->
+    <path d="M70 200 C250 55 510 48 760 190 C1010 332 1270 325 1465 175"
+          fill="none" stroke="url(#neon)" stroke-width="2"
+          opacity=".25" stroke-dasharray="11 18">
+      <animate attributeName="stroke-dashoffset" values="0;-58" dur="6s"
+               repeatCount="indefinite"/>
+    </path>
+
+    <path d="M75 250 C280 350 535 320 770 195 C1000 72 1250 70 1465 230"
+          fill="none" stroke="url(#neon)" stroke-width="2"
+          opacity=".2" stroke-dasharray="8 20">
+      <animate attributeName="stroke-dashoffset" values="0;56" dur="7s"
+               repeatCount="indefinite"/>
+    </path>
+
+    <!-- floating document -->
+    <g transform="translate(260 92)" filter="url(#glow)">
+      <animateTransform attributeName="transform" type="translate"
+        values="260 92;260 79;260 92" dur="4.5s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" additive="sum" type="rotate"
+        values="-7;5;-7" dur="6s" repeatCount="indefinite"/>
+      <rect x="-32" y="-40" width="64" height="80" rx="13"
+            fill="#091229" stroke="#65DFFF" stroke-width="2.5"/>
+      <path d="M-16 -17H17M-16 0H17M-16 17H8"
+            stroke="#DC86FF" stroke-width="4" stroke-linecap="round"/>
+      <circle cx="-21" cy="-17" r="2.5" fill="#65DFFF"/>
+      <circle cx="-21" cy="0" r="2.5" fill="#65DFFF"/>
+      <circle cx="-21" cy="17" r="2.5" fill="#65DFFF"/>
+    </g>
+
+    <!-- floating calendar -->
+    <g transform="translate(405 280)" filter="url(#glow)">
+      <animateTransform attributeName="transform" type="translate"
+        values="405 280;405 268;405 280" dur="5.2s" repeatCount="indefinite"/>
+      <rect x="-35" y="-29" width="70" height="58" rx="13"
+            fill="#091229" stroke="#9B7DFF" stroke-width="2.5"/>
+      <path d="M-35 -8H35M-18 -38V-17M18 -38V-17"
+            stroke="#9B7DFF" stroke-width="3" stroke-linecap="round"/>
+      <g fill="#55DFFF">
+        <circle cx="-17" cy="7" r="4"/><circle cx="0" cy="7" r="4"/><circle cx="17" cy="7" r="4"/>
+        <circle cx="-17" cy="21" r="4"/><circle cx="0" cy="21" r="4"/><circle cx="17" cy="21" r="4"/>
+      </g>
+    </g>
+
+    <!-- floating folder -->
+    <g transform="translate(1190 92)" filter="url(#glow)">
+      <animateTransform attributeName="transform" type="translate"
+        values="1190 92;1190 80;1190 92" dur="5.1s" repeatCount="indefinite"/>
+      <rect x="-40" y="-29" width="80" height="58" rx="13"
+            fill="#091229" stroke="#55DFFF" stroke-width="2.5"/>
+      <path d="M-25 -10H-7L1-2H27V21H-25Z"
+            fill="#55DFFF" fill-opacity=".17"
+            stroke="#55DFFF" stroke-width="2"/>
+    </g>
+
+    <!-- floating video -->
+    <g transform="translate(1340 255)" filter="url(#glow)">
+      <animateTransform attributeName="transform" type="translate"
+        values="1340 255;1340 243;1340 255" dur="4.4s" repeatCount="indefinite"/>
+      <rect x="-39" y="-29" width="78" height="58" rx="14"
+            fill="#091229" stroke="#E980DC" stroke-width="2.5"/>
+      <path d="M-9 -16L20 0L-9 16Z" fill="#E980DC"/>
+    </g>
+
+    <!-- floating compass -->
+    <g transform="translate(1130 275)" filter="url(#glow)">
+      <animateTransform attributeName="transform" type="translate"
+        values="1130 275;1130 263;1130 275" dur="5.8s" repeatCount="indefinite"/>
+      <circle r="38" fill="#091229" stroke="#4BDEFF" stroke-width="2.5"/>
+      <path d="M-16 18L-5-13L18-20L7 11Z"
+            fill="#4BDEFF" fill-opacity=".2"
+            stroke="#4BDEFF" stroke-width="2"/>
+      <circle r="4" fill="#C17DFF"/>
+    </g>
+
+    <!-- sparkles -->
+    <g filter="url(#glow)">
+      <path d="M570 95l6 15 15 6-15 6-6 15-6-15-15-6 15-6z"
+            fill="#58E2FF">
+        <animateTransform attributeName="transform" type="scale"
+          values="1;1.25;1" dur="2.7s" repeatCount="indefinite"/>
+      </path>
+      <path d="M970 78l7 17 17 7-17 7-7 17-7-17-17-7 17-7z"
+            fill="#E88CFF">
+        <animateTransform attributeName="transform" type="scale"
+          values="1;1.18;1" dur="3.1s" repeatCount="indefinite"/>
+      </path>
+      <circle cx="1040" cy="112" r="4" fill="#5DE2FF">
+        <animate attributeName="r" values="3;7;3" dur="2.4s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="700" cy="307" r="4" fill="#D77FFF">
+        <animate attributeName="r" values="3;6;3" dur="2.7s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+
+    <!-- BIGGER MAIN LOGO -->
+    <g transform="translate(768 190)">
+      <text x="0" y="46"
+            text-anchor="middle"
+            font-family="Inter,Segoe UI,Arial,sans-serif"
+            font-size="150"
+            font-weight="750"
+            letter-spacing="-9"
+            fill="url(#logo)"
+            filter="url(#glow)">Liora</text>
+
+      <!-- animated underline -->
+      <path d="M-245 91 C-125 50 110 50 245 91"
+            fill="none"
+            stroke="url(#neon)"
+            stroke-width="5"
+            stroke-linecap="round"
+            stroke-dasharray="0 550">
+        <animate attributeName="stroke-dasharray"
+          values="0 550;500 50;0 550"
+          dur="5s" repeatCount="indefinite"/>
+      </path>
+
+      <!-- logo sparkle -->
+      <path d="M0-105l7 17 17 7-17 7-7 17-7-17-17-7 17-7z"
+            fill="#EA8DFF" filter="url(#glow)">
+        <animateTransform attributeName="transform" type="scale"
+          values="1;1.16;1" dur="2.5s" repeatCount="indefinite"/>
+      </path>
+    </g>
+
+    <!-- moving particles -->
+    <g filter="url(#glow)">
+      <circle r="5" fill="#58E2FF">
+        <animateMotion dur="7s" repeatCount="indefinite"
+          path="M70 200 C250 55 510 48 760 190 C1010 332 1270 325 1465 175"/>
+      </circle>
+      <circle r="4" fill="#D47FFF">
+        <animateMotion dur="8.5s" begin="-2s" repeatCount="indefinite"
+          path="M75 250 C280 350 535 320 770 195 C1000 72 1250 70 1465 230"/>
+      </circle>
+    </g>
+
+    <!-- tiny drifting stars -->
+    <g fill="#67E5FF">
+      <circle cx="155" cy="72" r="2"><animate attributeName="cy" values="72;61;72" dur="3s" repeatCount="indefinite"/></circle>
+      <circle cx="515" cy="328" r="2"><animate attributeName="cy" values="328;316;328" dur="3.7s" repeatCount="indefinite"/></circle>
+      <circle cx="1015" cy="48" r="2"><animate attributeName="cy" values="48;38;48" dur="4s" repeatCount="indefinite"/></circle>
+      <circle cx="1460" cy="105" r="2"><animate attributeName="cy" values="105;94;105" dur="3.3s" repeatCount="indefinite"/></circle>
+    </g>
+  </g>
+
+  <!-- border is the outermost limit -->
+  <rect x="2" y="2" width="1532" height="381" rx="30"
+        fill="none" stroke="url(#neon)" stroke-width="3"/>
+</svg>
