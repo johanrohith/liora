@@ -1,0 +1,212 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 1536 385"
+     width="1536" height="385"
+     role="img" aria-labelledby="title desc">
+  <title id="title">Liora animated banner</title>
+  <desc id="desc">Minimal neon Liora banner with floating animated interface icons.</desc>
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#050916"/>
+      <stop offset=".52" stop-color="#080D20"/>
+      <stop offset="1" stop-color="#0D1028"/>
+    </linearGradient>
+
+    <linearGradient id="neon" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#43D9FF"/>
+      <stop offset=".48" stop-color="#7180FF"/>
+      <stop offset="1" stop-color="#D47CFF"/>
+    </linearGradient>
+
+    <linearGradient id="text" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#56DFFF"/>
+      <stop offset=".5" stop-color="#A5A1FF"/>
+      <stop offset="1" stop-color="#E49BFF"/>
+    </linearGradient>
+
+    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="softGlow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="15"/>
+    </filter>
+
+    <clipPath id="inside">
+      <rect x="2" y="2" width="1532" height="381" rx="30"/>
+    </clipPath>
+  </defs>
+
+  <!-- The border is the absolute image limit. -->
+  <rect x="2" y="2" width="1532" height="381" rx="30"
+        fill="url(#bg)" stroke="url(#neon)" stroke-width="3"/>
+
+  <g clip-path="url(#inside)">
+
+    <!-- Extremely subtle internal grid -->
+    <g opacity=".07" stroke="#75A6D8">
+      <path d="M0 80H1536M0 145H1536M0 210H1536M0 275H1536M0 340H1536"/>
+      <path d="M128 0V385M256 0V385M384 0V385M512 0V385M640 0V385M768 0V385M896 0V385M1024 0V385M1152 0V385M1280 0V385M1408 0V385"/>
+    </g>
+
+    <!-- Moving atmospheric glows, fully clipped -->
+    <circle cx="250" cy="185" r="170" fill="#28D8FF" opacity=".08" filter="url(#softGlow)">
+      <animate attributeName="cx" values="250;350;250" dur="9s" repeatCount="indefinite"/>
+      <animate attributeName="cy" values="185;145;185" dur="9s" repeatCount="indefinite"/>
+    </circle>
+
+    <circle cx="1280" cy="190" r="190" fill="#A66CFF" opacity=".08" filter="url(#softGlow)">
+      <animate attributeName="cx" values="1280;1180;1280" dur="10s" repeatCount="indefinite"/>
+      <animate attributeName="cy" values="190;230;190" dur="10s" repeatCount="indefinite"/>
+    </circle>
+
+    <!-- Orbit paths -->
+    <path d="M95 205 C270 45 505 45 690 190 C835 304 1050 305 1440 145"
+          fill="none" stroke="url(#neon)" stroke-width="2" opacity=".28"
+          stroke-dasharray="12 18">
+      <animate attributeName="stroke-dashoffset" from="0" to="-60"
+               dur="6s" repeatCount="indefinite"/>
+    </path>
+
+    <path d="M115 255 C330 350 535 320 710 205 C870 100 1090 85 1450 245"
+          fill="none" stroke="url(#neon)" stroke-width="2" opacity=".22"
+          stroke-dasharray="8 22">
+      <animate attributeName="stroke-dashoffset" from="0" to="60"
+               dur="7s" repeatCount="indefinite"/>
+    </path>
+
+    <!-- Animated orbital particles -->
+    <g filter="url(#glow)">
+      <circle r="5" fill="#50DFFF">
+        <animateMotion dur="7s" repeatCount="indefinite"
+          path="M95 205 C270 45 505 45 690 190 C835 304 1050 305 1440 145"/>
+      </circle>
+      <circle r="4" fill="#D47CFF">
+        <animateMotion dur="8.5s" repeatCount="indefinite" begin="-2s"
+          path="M115 255 C330 350 535 320 710 205 C870 100 1090 85 1450 245"/>
+      </circle>
+      <circle r="3" fill="#65E5FF">
+        <animateMotion dur="6.5s" repeatCount="indefinite" begin="-3s"
+          path="M95 205 C270 45 505 45 690 190 C835 304 1050 305 1440 145"/>
+      </circle>
+    </g>
+
+    <!-- Left floating task icon -->
+    <g transform="translate(255 105)" filter="url(#glow)">
+      <animateTransform attributeName="transform" type="translate"
+        values="255 105;255 92;255 105" dur="4.5s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" additive="sum" type="rotate"
+        values="-5;4;-5" dur="6s" repeatCount="indefinite"/>
+      <rect x="-34" y="-40" width="68" height="80" rx="14"
+            fill="#0A1228" stroke="#66DFFF" stroke-width="2.5"/>
+      <path d="M-17 -17H17M-17 0H17M-17 17H7"
+            stroke="#D57CFF" stroke-width="4" stroke-linecap="round"/>
+      <circle cx="-22" cy="-17" r="2.5" fill="#66DFFF"/>
+      <circle cx="-22" cy="0" r="2.5" fill="#66DFFF"/>
+      <circle cx="-22" cy="17" r="2.5" fill="#66DFFF"/>
+    </g>
+
+    <!-- Left calendar icon -->
+    <g transform="translate(405 260)" filter="url(#glow)">
+      <animateTransform attributeName="transform" type="translate"
+        values="405 260;405 250;405 260" dur="5s" repeatCount="indefinite"/>
+      <rect x="-36" y="-30" width="72" height="60" rx="14"
+            fill="#0A1228" stroke="#A37DFF" stroke-width="2.5"/>
+      <path d="M-36 -9H36M-19 -39V-18M19 -39V-18"
+            stroke="#A37DFF" stroke-width="3" stroke-linecap="round"/>
+      <g fill="#55DFFF">
+        <circle cx="-18" cy="7" r="4"/><circle cx="0" cy="7" r="4"/><circle cx="18" cy="7" r="4"/>
+        <circle cx="-18" cy="22" r="4"/><circle cx="0" cy="22" r="4"/><circle cx="18" cy="22" r="4"/>
+      </g>
+    </g>
+
+    <!-- Right folder icon -->
+    <g transform="translate(1195 105)" filter="url(#glow)">
+      <animateTransform attributeName="transform" type="translate"
+        values="1195 105;1195 94;1195 105" dur="5.2s" repeatCount="indefinite"/>
+      <rect x="-39" y="-29" width="78" height="58" rx="13"
+            fill="#0A1228" stroke="#55DFFF" stroke-width="2.5"/>
+      <path d="M-24 -10h19l7 8h22v22h-48z"
+            fill="#55DFFF" opacity=".22" stroke="#55DFFF" stroke-width="2"/>
+    </g>
+
+    <!-- Right media icon -->
+    <g transform="translate(1335 245)" filter="url(#glow)">
+      <animateTransform attributeName="transform" type="translate"
+        values="1335 245;1335 234;1335 245" dur="4.2s" repeatCount="indefinite"/>
+      <rect x="-39" y="-30" width="78" height="60" rx="15"
+            fill="#0A1228" stroke="#E77DDA" stroke-width="2.5"/>
+      <path d="M-8 -16L20 0L-8 16Z" fill="#E77DDA"/>
+    </g>
+
+    <!-- Right compass / discover icon -->
+    <g transform="translate(1120 275)" filter="url(#glow)">
+      <animateTransform attributeName="transform" type="translate"
+        values="1120 275;1120 264;1120 275" dur="5.7s" repeatCount="indefinite"/>
+      <circle r="38" fill="#0A1228" stroke="#4CDEFF" stroke-width="2.5"/>
+      <path d="M-15 18L-5 -13L17 -20L7 11Z"
+            fill="#4CDEFF" opacity=".22" stroke="#4CDEFF" stroke-width="2"/>
+      <circle r="4" fill="#C47DFF"/>
+    </g>
+
+    <!-- Floating sparkles -->
+    <g filter="url(#glow)">
+      <path d="M575 105l6 15 15 6-15 6-6 15-6-15-15-6 15-6z" fill="#58DFFF">
+        <animateTransform attributeName="transform" type="scale"
+          values="1;1.25;1" dur="2.8s" repeatCount="indefinite"/>
+      </path>
+      <path d="M940 80l7 17 17 7-17 7-7 17-7-17-17-7 17-7z" fill="#E88CFF">
+        <animateTransform attributeName="transform" type="scale"
+          values="1;1.18;1" dur="3.2s" repeatCount="indefinite"/>
+      </path>
+      <circle cx="1030" cy="115" r="5" fill="#58DFFF">
+        <animate attributeName="r" values="3;7;3" dur="2.4s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="705" cy="300" r="4" fill="#D67DFF">
+        <animate attributeName="r" values="3;6;3" dur="2.7s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+
+    <!-- Center Liora wordmark -->
+    <g transform="translate(768 193)">
+      <text x="0" y="30"
+            text-anchor="middle"
+            font-family="Inter, Segoe UI, Arial, sans-serif"
+            font-size="108"
+            font-weight="700"
+            letter-spacing="-6"
+            fill="url(#text)"
+            filter="url(#glow)">Liora</text>
+
+      <path d="M-205 72 C-100 38 85 38 205 72"
+            fill="none" stroke="url(#neon)" stroke-width="5"
+            stroke-linecap="round">
+        <animate attributeName="stroke-dasharray"
+          values="0 500;410 90;0 500"
+          dur="5s" repeatCount="indefinite"/>
+      </path>
+
+      <path d="M0 -82 l7 17 17 7-17 7-7 17-7-17-17-7 17-7z"
+            fill="#E88CFF" filter="url(#glow)">
+        <animateTransform attributeName="transform" type="scale"
+          values="1;1.15;1" dur="2.6s" repeatCount="indefinite"/>
+      </path>
+    </g>
+
+    <!-- Tiny drifting particles -->
+    <g fill="#6CE4FF">
+      <circle cx="170" cy="75" r="2"><animate attributeName="cy" values="75;65;75" dur="3s" repeatCount="indefinite"/></circle>
+      <circle cx="520" cy="325" r="2"><animate attributeName="cy" values="325;315;325" dur="3.7s" repeatCount="indefinite"/></circle>
+      <circle cx="1010" cy="55" r="2"><animate attributeName="cy" values="55;45;55" dur="4s" repeatCount="indefinite"/></circle>
+      <circle cx="1460" cy="100" r="2"><animate attributeName="cy" values="100;90;100" dur="3.3s" repeatCount="indefinite"/></circle>
+    </g>
+  </g>
+
+  <!-- Border stays the absolute outer edge -->
+  <rect x="2" y="2" width="1532" height="381" rx="30"
+        fill="none" stroke="url(#neon)" stroke-width="3"/>
+</svg>
