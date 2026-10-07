@@ -10,7 +10,7 @@ const NAV=[
  ['media','♫','Media','Music and video.'],
  ['travel','⌁','Travel','Trips and places.'],
  ['discover','✦','Discover','Interests and saved finds.'],
- ['ai','◉','Liora AI','Fixed commands from your JSON list.'],
+ ['ai','◉','Liora AI','An built-in model which responds to you.'],
  ['settings','⚙','Settings','Appearance and controls.']
 ];
 const TITLES=Object.fromEntries(NAV.map(x=>[x[0],x[2]]));
