@@ -71,8 +71,6 @@ Commands live in **`data/liora-commands.json`**.
 
 </div>
 
-No framework or build step is required for the core app.
-
 ---
 
 ## 📁 Project structure
@@ -98,28 +96,6 @@ liora/
 ```
 
 Keeping the app split this way makes the root clean while giving each part a clear purpose.
-
----
-
-## 🚀 Run
-
-Serve the project from a web origin:
-
-```bash
-python -m http.server 8000
-```
-
-Then open `http://localhost:8000`.
-
-For installation, service workers, notifications and embedded YouTube playback, deploy Liora over **HTTPS**.
-
----
-
-## 📱 PWA
-
-Liora includes a web manifest, installable app icons, service-worker caching, offline app-shell support and browser notification support.
-
-On a supported browser, use **Install** / **Add to Home Screen** to launch Liora like an app.
 
 ---
 
