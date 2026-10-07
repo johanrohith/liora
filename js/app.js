@@ -635,9 +635,9 @@ function executeAiResponse(response){
 }
 function renderAI(){
  $('ai').innerHTML=`
-  <div class="section-head"><div><div class="section-kicker">Assistant</div><div class="section-title">Liora AI</div><div class="section-sub">Fixed responses loaded from a JSON command list.</div></div><span class="badge blue">${aiCommands.length} commands</span></div>
+  <div class="section-head"><div><div class="section-kicker">Assistant</div><div class="section-title">Liora AI</div><div class="section-sub">Responses to preset commands as of now.</div></div><span class="badge blue">${aiCommands.length} commands</span></div>
   <article class="card" style="min-height:620px;display:flex;flex-direction:column">
-   <div style="flex:1;overflow:auto;padding-right:2px" id="aiFeed">${aiHistory.length?aiHistory.map(m=>`<div class="bubble ${m.role==='user'?'out':'in'}" style="margin-bottom:10px"><div class="role tiny muted">${m.role==='user'?'You':'Liora AI'}</div><div>${esc(m.text).replace(/\\n/g,'<br>')}</div></div>`).join(''):'<div class="empty">Type a message that exists in the JSON command list.</div>'}</div>
+   <div style="flex:1;overflow:auto;padding-right:2px" id="aiFeed">${aiHistory.length?aiHistory.map(m=>`<div class="bubble ${m.role==='user'?'out':'in'}" style="margin-bottom:10px"><div class="role tiny muted">${m.role==='user'?'You':'Liora AI'}</div><div>${esc(m.text).replace(/\\n/g,'<br>')}</div></div>`).join(''):'<div class="empty">Type a command from the commands list</div>'}</div>
    <div class="composer"><input class="input" id="aiInput" placeholder="Type a command…"><button class="btn btn-primary" data-send-ai>Send</button></div>
   </article>`;
  const feed=$('aiFeed');if(feed)feed.scrollTop=feed.scrollHeight;
