@@ -39,15 +39,15 @@ Liora brings everyday personal tools into one connected web app. From planning a
       <td align="center" valign="top" width="20%">🏠<br><strong>Home</strong><br><sub>Daily overview</sub></td>
       <td align="center" valign="top" width="20%">📅<br><strong>Planner</strong><br><sub>Tasks, habits, focus and goals</sub></td>
       <td align="center" valign="top" width="20%">📝<br><strong>Notes</strong><br><sub>Notes and images</sub></td>
-      <td align="center" valign="top" width="20%">₹<br><strong>Wallet</strong><br><sub>Wallet and UPI tools</sub></td>
+      <td align="center" valign="top" width="20%">💵<br><strong>Wallet</strong><br><sub>Wallet and UPI tools</sub></td>
       <td align="center" valign="top" width="20%">💬<br><strong>Connect</strong><br><sub>Direct conversations</sub></td>
     </tr>
     <tr>
-      <td align="center" valign="top" width="20%">♫<br><strong>Media</strong><br><sub>Music and video</sub></td>
+      <td align="center" valign="top" width="20%">🎵<br><strong>Media</strong><br><sub>Music and video</sub></td>
       <td align="center" valign="top" width="20%">🧭<br><strong>Travel</strong><br><sub>Trips and places</sub></td>
-      <td align="center" valign="top" width="20%">✦<br><strong>Discover</strong><br><sub>Interests and saved finds</sub></td>
-      <td align="center" valign="top" width="20%">◉<br><strong>Liora AI</strong><br><sub>Built-in command helper</sub></td>
-      <td align="center" valign="top" width="20%">⚙<br><strong>Settings</strong><br><sub>Appearance and controls</sub></td>
+      <td align="center" valign="top" width="20%">🌐<br><strong>Discover</strong><br><sub>Interests and saved finds</sub></td>
+      <td align="center" valign="top" width="20%">🤖<br><strong>Liora AI</strong><br><sub>Built-in command helper</sub></td>
+      <td align="center" valign="top" width="20%">⚙️<br><strong>Settings</strong><br><sub>Appearance and controls</sub></td>
     </tr>
   </tbody>
 </table>
