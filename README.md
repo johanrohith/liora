@@ -1,116 +1,76 @@
 <div align="center">
+  <img src="assets/readme/liora-readme-banner.svg" alt="Liora" width="100%">
+  <h3>✦ One connected personal environment</h3>
+</div>
 
-<img src="assets/readme/liora-readme-banner.svg" alt="Liora" width="100%">
+Liora brings everyday personal tools into one connected web app — from planning and notes to money tools, conversations, media, travel, discovery, and a built-in command helper.
 
-### ✦ One connected personal environment
-
-<p>
-  <img src="https://img.shields.io/badge/PWA-6B4DFF?style=for-the-badge" alt="PWA">
-  <img src="https://img.shields.io/badge/Offline%20Ready-21C58A?style=for-the-badge" alt="Offline Ready">
-  <img src="https://img.shields.io/badge/HTML%20%C2%B7%20CSS%20%C2%B7%20JS-FF8A3D?style=for-the-badge" alt="HTML CSS JS">
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=111827" alt="JavaScript">
+<p align="center">
+  <a href="https://johanrohith.me/liora/"><img src="https://img.shields.io/badge/OPEN-LIORA%20%E2%86%97-7657D5?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Open Liora"></a>
 </p>
 
-**Plan · Create · Focus · Connect · Explore**
+## Features
 
-</div>
+- **Home and Planner** — See a daily overview, organize tasks and habits, manage goals, and run focus sessions.
+- **Notes** — Capture notes and work with image attachments.
+- **Wallet** — View wallet spaces, activity, and UPI-related actions.
+- **Connect** — Access people and direct conversations.
+- **Media and Travel** — Keep media links, trips, and saved places together.
+- **Discover** — Keep interests and saved finds in one place.
+- **Installable experience** — A web app manifest and service worker support installation and cached use.
 
----
+## Tech Stack
 
-## 🌌 About
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=html,css,js,github" height="50" alt="HTML, CSS, JavaScript and GitHub">
+</p>
+<p align="center">
+  <img src="https://img.shields.io/badge/IndexedDB-Browser%20database-4676A9?style=flat-square" alt="IndexedDB">
+  <img src="https://img.shields.io/badge/Service%20Worker-Offline%20support-268A70?style=flat-square" alt="Service Worker">
+  <img src="https://img.shields.io/badge/Web%20App%20Manifest-PWA-7657D5?style=flat-square" alt="Web App Manifest">
+  <img src="https://img.shields.io/badge/JSON-Command%20library-6B7280?style=flat-square&logo=json&logoColor=white" alt="JSON command library">
+</p>
 
-Liora is a responsive personal web app that brings everyday tools into one consistent environment — from planning and notes to money, media, travel, discovery and a lightweight command assistant.
+## Spaces
 
-```text
-PLAN → CREATE → FOCUS → MANAGE → CONNECT → WATCH → EXPLORE
-```
+<table>
+  <tbody>
+    <tr>
+      <td align="center" valign="top" width="20%">🏠<br><strong>Home</strong><br><sub>Daily overview</sub></td>
+      <td align="center" valign="top" width="20%">📅<br><strong>Planner</strong><br><sub>Tasks, habits, focus and goals</sub></td>
+      <td align="center" valign="top" width="20%">📝<br><strong>Notes</strong><br><sub>Notes and images</sub></td>
+      <td align="center" valign="top" width="20%">₹<br><strong>Wallet</strong><br><sub>Wallet and UPI tools</sub></td>
+      <td align="center" valign="top" width="20%">💬<br><strong>Connect</strong><br><sub>Direct conversations</sub></td>
+    </tr>
+    <tr>
+      <td align="center" valign="top" width="20%">♫<br><strong>Media</strong><br><sub>Music and video</sub></td>
+      <td align="center" valign="top" width="20%">🧭<br><strong>Travel</strong><br><sub>Trips and places</sub></td>
+      <td align="center" valign="top" width="20%">✦<br><strong>Discover</strong><br><sub>Interests and saved finds</sub></td>
+      <td align="center" valign="top" width="20%">◉<br><strong>Liora AI</strong><br><sub>Built-in command helper</sub></td>
+      <td align="center" valign="top" width="20%">⚙<br><strong>Settings</strong><br><sub>Appearance and controls</sub></td>
+    </tr>
+  </tbody>
+</table>
 
----
+## How It Works
 
-## 🧭 Spaces
+Liora is a static web app with ten spaces that share one interface and browser-stored app state. A service worker and web app manifest support installation and cached use. The Liora AI helper matches supported phrases against command definitions in `data/liora-commands.json` and returns predefined responses or navigation actions.
 
-| Space | Purpose |
-|---|---|
-| 📅 **Planner** | Tasks, events, goals, habits and Focus sessions |
-| 📝 **Notes** | Notes with image attachments and full-screen previews |
-| ₹ **Wallet** | Saving, Current, Cash, UPI payments and requests |
-| ♧ **Connect** | People, conversations and groups |
-| ♫ **Media** | Songs, videos, playback and YouTube links |
-| ⌁ **Travel** | Trips, dates and saved places |
-| ✦ **Discover** | Interests, recommendations and saved finds |
-| ◉ **Liora AI** | Fixed responses from a JSON command library |
-| ⚙ **Settings** | Theme, Short Brief, notifications and app controls |
+## Why Liora?
 
----
+Everyday tools can leave people constantly switching between separate apps. Liora explores a more connected personal environment, with a single place for planning, notes, wallet tools, conversations, media, trips, and saved interests. Its built-in command helper also supports simple navigation phrases such as:
 
-## 🤖 Liora AI
+- `open planner`
+- `open notes`
+- `open wallet`
+- `open messages`
 
-The assistant uses a simple command library that keeps responses transparent and easy to extend.
-
-```mermaid
-flowchart LR
-    A[User input] --> B[Normalize]
-    B --> C{Match command}
-    C -->|Match| D[Saved response]
-    C -->|No match| E[No fixed response]
-```
-
-Commands live in **`data/liora-commands.json`**.
-
----
-
-## 🧱 Tech stack
-
-<div align="center">
-
-<img src="https://skillicons.dev/icons?i=html,css,js,git,github" alt="HTML CSS JavaScript GitHub">
-
-<br><br>
-
-`HTML5` · `CSS3` · `JavaScript` · `IndexedDB` · `Service Worker` · `Web App Manifest` · `JSON`
-
-</div>
-
----
-
-## 📁 Project structure
-
-```text
-liora/
-├── index.html
-├── manifest.webmanifest
-├── liora-sw.js
-├── css/
-│   └── styles.css
-├── js/
-│   └── app.js
-├── data/
-│   └── liora-commands.json
-├── assets/
-│   ├── icons/
-│   │   ├── icon-192.png
-│   │   └── icon-512.png
-│   └── readme/
-│       └── liora-readme-banner.svg
-└── README.md
-```
-
-Keeping the app split this way makes the root clean while giving each part a clear purpose.
-
----
-
-## 🌱 Project
-
-Liora is built to be extended: richer reminders, backup/import, share actions, deeper media integrations and more personal automation can be added without changing the core structure.
-
-> **Less switching. More doing.**
+These are examples from the local command library, not open-ended generative AI responses.
 
 ---
 
 <div align="center">
-
-### ✦ Liora
-
-**Made by Johan Rohith**
-
+  <strong>✦ Liora</strong><br>
+  <em>One connected personal environment</em><br>
+  <sub>Made by Johan Rohith</sub>
 </div>
