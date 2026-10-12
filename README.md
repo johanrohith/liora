@@ -12,11 +12,11 @@ Liora brings everyday personal tools into one connected web app. From planning a
 ## Features
 
 - **Home and Planner** — See a daily overview, organize tasks and habits, manage goals, and run focus sessions.
-- **Notes** — Capture notes and work with image attachments.
-- **Wallet** — View wallet spaces, activity, and UPI-related actions.
+- **Notes** — Capture notes and attach image attachments.
+- **Wallet** — View wallet activity, and UPI-related actions.
 - **Connect** — Access people and direct conversations.
 - **Media and Travel** — Keep media links, trips, and saved places together.
-- **Discover** — Keep interests and saved finds in one place.
+- **Discover** — Keep interests and saved items in one place.
 - **Installable experience** — A web app manifest and service worker support installation and cached use.
 
 ## Tech Stack
