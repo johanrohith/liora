@@ -3,7 +3,7 @@
   <h3>✦ One connected personal environment</h3>
 </div>
 
-Liora brings everyday personal tools into one connected web app — from planning and notes to money tools, conversations, media, travel, discovery, and a built-in command helper.
+Liora brings everyday personal tools into one connected web app. From planning and notes to payment, conversations, media, travel, discovery, and a built-in command helper.
 
 <p align="center">
   <a href="https://johanrohith.me/liora/"><img src="https://img.shields.io/badge/OPEN-LIORA%20%E2%86%97-7657D5?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Open Liora"></a>
