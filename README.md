@@ -54,7 +54,7 @@ Liora brings everyday personal tools into one connected web app. From planning a
 
 ## How It Works
 
-Liora is a static web app with ten spaces that share one interface and browser-stored app state. A service worker and web app manifest support installation and cached use. The Liora AI helper matches supported phrases against command definitions in `data/liora-commands.json` and returns predefined responses or navigation actions.
+Liora is a static web app with ten spaces that share one interface. A service worker and web app manifest support installation and cached use. The Liora AI helper matches supported phrases against command definitions in `data/liora-commands.json` and returns predefined responses or navigation actions.
 
 ## Why Liora?
 
@@ -62,8 +62,6 @@ Everyday tools can leave people constantly switching between separate apps. Lior
 
 - `open planner`
 - `open notes`
-- `open wallet`
-- `open messages`
 
 These are examples from the local command library, not open-ended generative AI responses.
 
